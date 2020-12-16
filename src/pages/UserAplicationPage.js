@@ -162,7 +162,7 @@ const coursesData = [
 
 
 
-const CoursesPage = () => {
+const UserAplicationPage = () => {
 
 
     const courses = coursesData.map(
@@ -194,4 +194,4 @@ const CoursesPage = () => {
   )
 }
 
-export default CoursesPage
+export default UserAplicationPage
