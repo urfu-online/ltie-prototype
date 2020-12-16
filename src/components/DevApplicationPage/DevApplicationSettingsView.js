@@ -1,14 +1,12 @@
 import React  from "react";
 
-const CourseSettingsView = ({course}) => {
+const DevApplicationSettingsView = ({course}) => {
     return (
         <>
             <h4>Настройки приложения</h4>
             <div className="form-group">
                 <label>Тип приложения</label>
-                <select className="form-control">
-                    <option>{course.name}</option>
-                </select>
+                <input type="text" className="form-control" defaultValue={course.name}/>
                 <small  className="form-text text-muted"></small>
             </div>
             <div className="form-group">
@@ -16,9 +14,9 @@ const CourseSettingsView = ({course}) => {
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <small className="form-text text-muted"></small>
             </div>
-
             <button type="submit" className="btn btn-primary">Сохранить</button>
         </>
     )
 }
-export default CourseSettingsView
+
+export default DevApplicationSettingsView

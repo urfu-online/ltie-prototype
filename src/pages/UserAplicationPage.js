@@ -3,7 +3,7 @@ import CourseRowView from "../components/CourseRowView";
 
 const coursesData = [
     {
-        name: 'Таблица на соответстие',
+        name: 'Таблица на соответствие',
         rightНolder: 'v.01',
         session: [
             {
@@ -19,7 +19,7 @@ const coursesData = [
         ]
     },
     {
-        name: 'Таблица на соответстие',
+        name: 'Таблица на соответствие',
         rightНolder: 'v.01',
         session: [
             {
@@ -35,7 +35,7 @@ const coursesData = [
         ]
     },
     {
-        name: 'Таблица на соответстие',
+        name: 'Таблица на соответствие',
         rightНolder: 'v.01',
         session: [
             {
@@ -51,7 +51,7 @@ const coursesData = [
         ]
     },
     {
-        name: 'Таблица на соответстие',
+        name: 'Таблица на соответствие',
         rightНolder: 'v.01',
         session: [
             {
@@ -67,7 +67,7 @@ const coursesData = [
         ]
     },
     {
-        name: 'Таблица на соответстие',
+        name: 'Таблица на соответствие',
         rightНolder: 'v.01',
         session: [
             {
@@ -162,7 +162,7 @@ const coursesData = [
 
 
 
-const UserAplicationPage = () => {
+const UserApplicationPage = () => {
 
 
     const courses = coursesData.map(
@@ -194,4 +194,4 @@ const UserAplicationPage = () => {
   )
 }
 
-export default UserAplicationPage
+export default UserApplicationPage

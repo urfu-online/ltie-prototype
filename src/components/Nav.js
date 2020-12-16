@@ -27,10 +27,10 @@ const Nav = () => {
                             <>
                         <div className="dropdown-divider"></div>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/courses">Кабинет преподавателя</NavLink>
+                            <NavLink className="nav-link" to="/application">Кабинет преподавателя</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/courses">Кабинет разработчика</NavLink>
+                            <NavLink className="nav-link" to="/dev-application">Кабинет разработчика</NavLink>
                         </li>
                         </>
                     }

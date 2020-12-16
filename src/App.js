@@ -13,7 +13,8 @@ import PricePage from "./pages/PricePage";
 import AgreementPage from "./pages/AgreementPage";
 import FuncDescPage from "./pages/FuncDescPage";
 import СontractPage from "./pages/СontractPage";
-import CoursesPage from "./pages/UserAplicationPage";
+import UserAplicationPage from "./pages/UserAplicationPage";
+import DevAplicationPage from "./pages/DevAplicationPage";
 
 export const DataContext = React.createContext({})
 
@@ -53,8 +54,11 @@ function App () {
                   <Route path="/contract">
                       <СontractPage />
                   </Route>
-                  <Route path="/courses">
-                      <CoursesPage />
+                  <Route path="/application">
+                      <UserAplicationPage />
+                  </Route>
+                  <Route path="/dev-application">
+                      <DevAplicationPage />
                   </Route>
                   <Route path="/">
                       <HomePage />
